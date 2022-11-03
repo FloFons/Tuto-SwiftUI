@@ -14,6 +14,8 @@
 		EA2286F62912D7D600A943F6 /* Tuto_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2286F52912D7D600A943F6 /* Tuto_SwiftUITests.swift */; };
 		EA2287002912D7D600A943F6 /* Tuto_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2286FF2912D7D600A943F6 /* Tuto_SwiftUIUITests.swift */; };
 		EA2287022912D7D600A943F6 /* Tuto_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2287012912D7D600A943F6 /* Tuto_SwiftUIUITestsLaunchTests.swift */; };
+		EA22870F2913B29600A943F6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA22870E2913B29600A943F6 /* CircleImage.swift */; };
+		EA2287112913B45C00A943F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2287102913B45C00A943F6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		EA2286FB2912D7D600A943F6 /* Tuto SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tuto SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2286FF2912D7D600A943F6 /* Tuto_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuto_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		EA2287012912D7D600A943F6 /* Tuto_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuto_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA22870E2913B29600A943F6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EA2287102913B45C00A943F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				EA2286E32912D7CF00A943F6 /* Tuto_SwiftUIApp.swift */,
 				EA2286E52912D7CF00A943F6 /* ContentView.swift */,
 				EA2286E72912D7D500A943F6 /* Assets.xcassets */,
+				EA22870E2913B29600A943F6 /* CircleImage.swift */,
+				EA2287102913B45C00A943F6 /* MapView.swift */,
 				EA2286E92912D7D500A943F6 /* Tuto_SwiftUI.entitlements */,
 				EA2286EA2912D7D500A943F6 /* Preview Content */,
 			);
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA2286E62912D7CF00A943F6 /* ContentView.swift in Sources */,
+				EA2287112913B45C00A943F6 /* MapView.swift in Sources */,
 				EA2286E42912D7CF00A943F6 /* Tuto_SwiftUIApp.swift in Sources */,
+				EA22870F2913B29600A943F6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
